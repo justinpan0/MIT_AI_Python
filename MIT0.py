@@ -1,3 +1,4 @@
+#define cube function
 def cube(n):
         res = n * n * n;
         print (res)
@@ -5,6 +6,7 @@ def cube(n):
 
 cube(3)
 
+#define factorial function
 def factorial(n):
     if n == 0:
         print ("1");
@@ -17,6 +19,7 @@ def factorial(n):
 
 factorial(5)
 
+#define depth function for depth of difficulty represented as parenthesis.
 def depth(expr,n):
         for i in expr:
                 if isinstance(i, (list, tuple)):
